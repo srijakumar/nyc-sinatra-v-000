@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 4) do
     t.string "name"
   end
 
-  create_table "landmark", force: :cascade do |t|
+  create_table "landmarks", force: :cascade do |t|
     t.string  "name"
     t.integer "figure_id"
     t.integer "year_completed"
