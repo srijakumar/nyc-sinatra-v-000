@@ -15,4 +15,12 @@ class FiguresController < ApplicationController
     erb :'figures/show'
   end
 
+  post '/figures' do
+
+  end
+
+  patch '/figures/:id' do
+
+  end
+
 end
